@@ -1,9 +1,17 @@
+import Header from './components/header/header.js';
+import Notification from './components/notification/notification.js';
+import { useState } from 'react';
 
 function App() {
+  const [ unread, setUnread ] = useState(3);
+
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Header unread={unread} />
+      <main>
+        <Notification />
+      </main>
+    </>
   );
 }
 

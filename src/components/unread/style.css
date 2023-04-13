@@ -1,0 +1,13 @@
+@import url('/src/index.css');
+
+span{
+    padding: 0 0.8em;
+    display: flex;
+    align-items: center;
+
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: var(--100);
+    font-size: 0.8rem;
+    font-weight: 500;
+}

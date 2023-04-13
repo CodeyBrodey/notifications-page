@@ -1,0 +1,24 @@
+@import url(/src/index.css);
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+
+    font-size: 0.55rem;
+    font-weight: 800;
+}
+
+header div{
+    display: flex;
+    gap: 1em;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: var(--500);
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: var(--accent-ff);
+}
