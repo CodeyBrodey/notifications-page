@@ -22,3 +22,12 @@ button{
     font-size: 0.8rem;
     font-family: var(--accent-ff);
 }
+
+.button-link{
+    cursor: pointer;
+}
+  
+.button-link:hover{
+    color: var(--blue);
+}
+  

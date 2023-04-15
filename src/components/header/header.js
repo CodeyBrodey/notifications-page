@@ -1,7 +1,7 @@
 import './style.css';
-import Unread from '../unread/unread.js'
+import Unread from '../unread/unread'
 
-function Header({ unread }){
+function Header({ unread, onClick }){
 
     return(
         <header>
@@ -9,7 +9,7 @@ function Header({ unread }){
                 <h1>Notifications</h1>
                 <Unread unread={unread} />
             </div>
-            <button>Mark all as read</button>
+            <button onClick={onClick} className='button-link'>Mark all as read</button>
         </header>
     )
 };

@@ -1,0 +1,86 @@
+@import url('/src/index.css');
+
+img{
+    max-width: 35px;
+    max-height: 35px;
+    margin: 0 1em 0 0;
+}
+
+.notification__img{
+    margin: 0 0 0 auto;
+}
+
+.notification{
+    display: flex;
+    padding: 1em;
+
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: var(--600);
+}
+
+.notification + .notification{
+    margin: 0.75em 0 0 0;
+}
+
+.name{
+    display: inline;
+    margin: 0 0.25ch 0 0;
+
+    cursor: pointer;
+    color: var(--800);
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.notification .strong{
+    font-weight: 800;
+}
+
+.notification .time{
+    color: var(--500);
+}
+
+.unread{
+    background-color: var(--100);
+}
+
+.unread-dot{
+    display: inline-block;
+
+    width: 7px;
+    min-height: 7px;
+    border-radius: 7px;
+    background-color: var(--red);
+    margin: 0 0.5em;
+}
+
+.group{
+    color: var(--blue);
+}
+
+.strong{
+    display: inline;
+    margin: 0 0 0 0.25ch;
+    white-space: normal;
+}
+
+.message{
+    margin: 0.75em 0 0.75em 0;
+    padding: 1em;
+
+    cursor: pointer;
+    border: solid 1px var(--300);
+}
+
+.message:hover{
+    background-color: var(--200);
+}
+
+.button-link{
+    cursor: pointer;
+}
+  
+.button-link:hover{
+    color: var(--blue);
+}

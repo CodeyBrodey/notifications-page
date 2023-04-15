@@ -4,7 +4,7 @@ function Unread({ unread }) {
 
     if(unread !== 0){
         return(
-        <span>{unread}</span>
+        <span className='notification-count'>{unread}</span>
         )
     } else {
         return null;
